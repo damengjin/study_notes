@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Study Notes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/github.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/languages/python.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/languages/javascript.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body);"></script>
+
+    <script src="js/script.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="page-container">
+        <header class="page-header">
+            <h1 class="page-title">Your Note Title</h1>
+            <div class="page-subtitle">
+                <div class="page-author">Author: Your Name</div>
+                <div class="page-date">Date: July 7, 2024</div>
+            </div>
+        </header>
+
+        <div class="page-content">
+
+
+            <div class="panel panel-info">
+                <div class="panel-header">
+                    <i class="fas fa-info-circle panel-icon"></i>
+                    <h3 class="panel-title">Information</h3>
+                </div>
+                <div class="panel-content">
+                    <p>This is an information panel.</p>
+                </div>
+            </div>
+
+            <div class="panel panel-warning">
+                <div class="panel-header">
+                    <i class="fas fa-exclamation-triangle panel-icon"></i>
+                    <h3 class="panel-title">Warning</h3>
+                </div>
+                <div class="panel-content">
+                    <p>This is a warning panel.</p>
+                </div>
+            </div>
+
+            <div class="panel panel-success">
+                <div class="panel-header">
+                    <i class="fas fa-check-circle panel-icon"></i>
+                    <h3 class="panel-title">Success</h3>
+                </div>
+                <div class="panel-content">
+                    <p>This is a success panel.</p>
+                </div>
+            </div>
+
+            <!-- Two columns side by side -->
+            <div class="layout layout-2col layout-border-solid layout-center">
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, exercitationem quod provident
+                    praesentium, <span class="highlight-blue">voluptas magnam eveniet rem</span> iure, perferendis
+                    mollitia
+                    blanditiis! Fuga, placeat impedit
+                    sed, distinctio dolore quaerat molestiae, quod voluptatem illo et veritatis alias facilis
+                    aspernatur.
+                    <span class="highlight-yellow">Iusto magnam</span> non voluptates laboriosam, <span
+                        class="highlight-green">quibusdam</span> doloribus
+                    expedita asperiores aliquam praesentium
+                    fugit <span class="highlight-pink">temporibus tempora</span> mollitia explicabo laborum dolore
+                    accusantium eum facere fugiat nostrum ratione
+                    aperiam. Quos magni voluptates nostrum sunt adipisci? Vel velit quod delectus sunt quas cumque
+                    accusamus
+                    commodi alias recusandae excepturi?
+                </div>
+                <div class="media-wrapper media-wrapper-border">
+                    <div class="media-title">Figure 1: Sample Image</div>
+                    <div class="media-content">
+                        <img src="assets/graph.svg" alt="" class="img-large">
+                    </div>
+                    <div class="media-caption">This is a caption for the image</div>
+                </div>
+
+            </div>
+
+            <!-- to manually insert a page break, use the following code -->
+            <!-- <div style="page-break-after: always;"></div> -->
+
+            <!-- Three columns side by side -->
+            <div class="layout layout-3col layout-border-dashed layout-center">
+                <div class="media-wrapper media-wrapper-border">
+                    <div class="media-title">Figure 1: Sample Image</div>
+                    <div class="media-content">
+                        <img src="assets/graph.svg" alt="" class="img-large">
+                    </div>
+                    <div class="media-caption">This is a caption for the image</div>
+                </div>
+                <div class="media-wrapper media-wrapper-border">
+                    <div class="media-title">Figure 1: Sample Image</div>
+                    <div class="media-content">
+                        <img src="assets/graph.svg" alt="" class="img-large">
+                    </div>
+                    <div class="media-caption">This is a caption for the image</div>
+                </div>
+                <div class="media-wrapper media-wrapper-border">
+                    <div class="media-title">Figure 1: Sample Image</div>
+                    <div class="media-content">
+                        <img src="assets/graph.svg" alt="" class="img-large">
+                    </div>
+                    <div class="media-caption">This is a caption for the image</div>
+                </div>
+            </div>
+
+            <!-- Two by two grid -->
+            <div class="layout layout-2x2 layout-border-solid layout-center">
+                <div class="media-wrapper media-wrapper-border">
+                    <div class="media-title">Figure 1: Sample Image</div>
+                    <div class="media-content">
+                        <img src="assets/A.svg" alt="" class="img-medium">
+                    </div>
+                    <div class="media-caption">This is a caption for the image</div>
+                </div>
+                <div class="media-wrapper media-wrapper-border">
+                    <div class="media-title">Figure 1: Sample Image</div>
+                    <div class="media-content">
+                        <img src="assets/B.svg" alt="" class="img-medium">
+                    </div>
+                    <div class="media-caption">This is a caption for the image</div>
+                </div>
+                <div class="media-wrapper media-wrapper-border">
+                    <div class="media-title">Figure 1: Sample Image</div>
+                    <div class="media-content">
+                        <img src="assets/C.svg" alt="" class="img-medium">
+                    </div>
+                    <div class="media-caption">This is a caption for the image</div>
+                </div>
+                <div class="media-wrapper media-wrapper-border">
+                    <div class="media-title">Figure 1: Sample Image</div>
+                    <div class="media-content">
+                        <img src="assets/D.svg" alt="" class="img-medium">
+                    </div>
+                    <div class="media-caption">This is a caption for the image</div>
+                </div>
+            </div>
+
+            <hr class="divider">
+
+            <h1>Main Title</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus aspernatur eaque quas deserunt
+                amet
+                ipsa
+                culpa sapiente? Est architecto provident nesciunt? Hic magni totam laboriosam eum, maxime, adipisci
+                provident
+                quia quae maiores, saepe ex minus numquam rem sed aut excepturi corrupti dolores impedit! Eum, sit
+                dolor?
+                Cupiditate molestiae repudiandae aperiam.</p>
+            <p>This is a sentence with a citation<a href="#cite1" class="citation">[1]</a>.</p>
+
+            <h2>Section Title</h2>
+            <p>Content in this section.</p>
+
+            <h3>Subsection Title</h3>
+            <p>More detailed content here.</p>
+
+            <h4>Minor Section</h4>
+            <p>Even more specific information.</p>
+
+            <table class="study-table study-table-dark">
+                <thead>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                    </tr>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                    </tr>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="study-table study-table-light">
+                <thead>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                    </tr>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                    </tr>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="study-table study-table-green">
+                <thead>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                    </tr>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                    </tr>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="study-table study-table-pink">
+                <thead>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                    </tr>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                    </tr>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="code-block">
+                <div class="code-block-header">Hello World</div>
+                <pre><code class="python">import os
+def hello():
+    print("Hello, World!")</code></pre>
+            </div>
+
+            <div class="equation-block">
+                <div class="equation-header">Pythagorean Theorem</div>
+                <div class="equation-content">
+                    \[ a^2 + b^2 = c^2 \]
+                </div>
+            </div>
+            <footer class="citations-footer">
+                <h3>References</h3>
+                <ol class="citations-list">
+                    <li id="cite1">Author, A. (Year). Title of the work. Publisher.</li>
+                    <li id="cite2">Researcher, B. (Year). Title of another work. Journal Name.</li>
+                </ol>
+            </footer>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
